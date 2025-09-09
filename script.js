@@ -23,6 +23,17 @@ fileInput.addEventListener("change", function () {
         canvas.height = image.height;
         ctx.drawImage(image, 0, 0); // Draw the image onto the canvas
 
-        ctx.getImageData(0, 0, canvas.width, canvas.height);
+        let imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        let blockHeight = 8;
+        let blockWidth = 8;
+        for (let y = 0; y < canvas.height; y += blockHeight) {
+            for (let x = 0; x < canvas.width; x += blockWidth) {
+                let rSum = 0;
+                let gSum = 0;
+                let bSum = 0;
+
+                for ()
+            }
+        }
     };
 });
