@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image to ASCII Converter</title>
+    <link rel="stylesheet" href="style.css"> <!--Link to style.css-->
+    <script src="script.js" defer></script> <!--Link to script.js-->
+</head>
+<body>
+    <div>
+        <h1>Image to ASCII Converter</h1>
+    </div>
+    <div class="input-section"> <!--Div to add image into canvas-->
+        <p>Insert your image file here</p>
+        <input type="file" id="file-input" accept="image/*" hidden> <!--File input-->
+        <button type="button" id="choose-button">CHOOSE A FILE</button> <!--Visible button to trigger input-->
+        <span id="current-file">No file chosen</span>
+        <canvas id="image-canvas"></canvas>
+    </div>
+    <div class="output-section"> <!--Div to display/download ASCII art-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    font-family: "Roboto Mono", "Vazirmatn", monospace;
+    color: #d7d9dd;
+    text-align: center;
+    background-color: #2b2d30;
+}
+
+#choose-button {
+    color: #bcbbba;
+    width: 200px;
+    height: 30px;
+    background-color: #716762;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#choose-button:hover {
+    background-color: #71676280;
+}
+
+#choose-button:active {
+    background-color: #716762;
+}
+
+#current-file {
+    font-size: 12px;
+}
+
+#image-canvas {
+    display: block;
+    margin: 20px auto;
+    background-color: #222;
+    max-width: 1000px;
+    max-height: 1000px;
+    border: 2px solid #444;
+    border-radius: 8px;
+}
